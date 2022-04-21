@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-21T00:38:22 IST" name="Default suite" finished-at="2022-04-21T00:39:14 IST" duration-ms="51385">
+    <groups>
+    </groups>
+    <test started-at="2022-04-21T00:38:22 IST" name="Default test" finished-at="2022-04-21T00:39:14 IST" duration-ms="51385">
+      <class name="com.mystore.testcases.EndToEndTest">
+        <test-method is-config="true" signature="loadconfig()[pri:0, instance:com.mystore.testcases.EndToEndTest@7b36aa0c]" started-at="2022-04-21T00:38:22 IST" name="loadconfig" finished-at="2022-04-21T00:38:22 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadconfig -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystore.testcases.EndToEndTest@7b36aa0c]" started-at="2022-04-21T00:38:22 IST" name="setup" finished-at="2022-04-21T00:38:40 IST" duration-ms="17381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="endToEndTest()[pri:0, instance:com.mystore.testcases.EndToEndTest@7b36aa0c]" started-at="2022-04-21T00:38:40 IST" name="endToEndTest" finished-at="2022-04-21T00:39:13 IST" duration-ms="33611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endToEndTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.EndToEndTest@7b36aa0c]" started-at="2022-04-21T00:39:13 IST" name="tearDown" finished-at="2022-04-21T00:39:14 IST" duration-ms="342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mystore.testcases.EndToEndTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
