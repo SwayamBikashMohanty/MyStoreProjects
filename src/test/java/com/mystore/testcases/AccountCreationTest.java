@@ -6,6 +6,8 @@ package com.mystore.testcases;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Optional;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import com.mystore.base.BaseClass;
@@ -23,24 +25,24 @@ public class AccountCreationTest extends BaseClass {
 	LoginPage loginPage;
 	AccountCreationPage accountCreationPage;
 
-	@BeforeMethod
-	public void setup() {
-		launchApp();
+	@Parameters("browser")
+	@BeforeMethod(groups = { "smoke", "sanity", "Regression" })
+	public void setup(@Optional("chrome") String browser) {
+		launchApp(browser);
 	}
-	
-	@Test
+
+	@Test(groups = "sanity")
 	public void verifyCreateAccountPageTest() {
-		indexPage=new IndexPage();
-		loginPage=indexPage.clickOnSignIn();
-		accountCreationPage=loginPage.createNewAccount("dvj@gmail.com");
-		boolean result=accountCreationPage.validateAccountCreatePage();
+		indexPage = new IndexPage();
+		loginPage = indexPage.clickOnSignIn();
+		accountCreationPage = loginPage.createNewAccount("dvj@gmail.com");
+		boolean result = accountCreationPage.validateAccountCreatePage();
 		Assert.assertTrue(result);
 	}
-	
-	@AfterMethod
+
+	@AfterMethod(groups = { "smoke", "sanity", "Regression" })
 	public void tearDown() {
 		driver.quit();
 	}
 
-	
 }

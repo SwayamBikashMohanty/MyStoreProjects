@@ -6,27 +6,40 @@ import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Parameters;
 
+import com.beust.jcommander.Parameter;
 import com.mystore.actiondriver.Action;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class BaseClass{
+public class BaseClass {
 	public static Properties prop;
 	public static WebDriver driver;
+	public static Logger logger;
 
-	@BeforeTest
+	
+
+	@BeforeSuite(groups = { "smoke", "sanity", "Regression" })
 	public void loadconfig() {
 		try {
+
+			logger = Logger.getLogger("MyStoreProject");
+			PropertyConfigurator.configure("log4j.properties");
+
 			prop = new Properties();
 			System.out.println("super constructor invoked");
 			FileInputStream ip = new FileInputStream(
-					System.getProperty("user.dir") +"\\Configuration\\config.properties");
+					System.getProperty("user.dir") + "\\Configuration\\config.properties");
 			prop.load(ip);
 			System.out.println("driver:" + driver);
 		} catch (FileNotFoundException e) {
@@ -36,9 +49,9 @@ public class BaseClass{
 		}
 	}
 
-	public static void launchApp() {
-		//WebDriverManager.chromedriver().setup();
-		String browserName = prop.getProperty("browser");
+	public static void launchApp(String browserName) {
+		// WebDriverManager.chromedriver().setup();
+		// String browserName = prop.getProperty("browser");
 
 		if (browserName.equalsIgnoreCase("Chrome")) {
 			WebDriverManager.chromedriver().setup();
@@ -54,7 +67,6 @@ public class BaseClass{
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
 		driver.get(prop.getProperty("url"));
-		
 
 	}
 

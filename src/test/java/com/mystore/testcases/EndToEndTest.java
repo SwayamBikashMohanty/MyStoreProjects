@@ -6,6 +6,8 @@ package com.mystore.testcases;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Optional;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import com.mystore.base.BaseClass;
@@ -36,12 +38,13 @@ public class EndToEndTest extends BaseClass {
 	OrderSummaryPage orderSummary;
 	OrderConfirmationPage orderConfirmationPage;
 
-	@BeforeMethod
-	public void setup() {
-		launchApp();
+	@Parameters("browser")
+	@BeforeMethod(groups = { "smoke", "sanity", "Regression" })
+	public void setup(@Optional("chrome") String browser) {
+		launchApp(browser);
 	}
 
-	@Test
+	@Test(groups = "Regression")
 	public void endToEndTest() throws Exception {
 		indexPage = new IndexPage();
 		searchResultPage = indexPage.searchProduct("t-shirt");
@@ -62,7 +65,7 @@ public class EndToEndTest extends BaseClass {
 		Assert.assertEquals(actualMessage, expectedMessage);
 	}
 
-	@AfterMethod
+	@AfterMethod(groups = { "smoke", "sanity", "Regression" })
 	public void tearDown() {
 		driver.quit();
 	}

@@ -8,6 +8,8 @@ import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Optional;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import com.mystore.base.BaseClass;
@@ -24,12 +26,13 @@ public class AddToCartTest extends BaseClass {
 	SearchResultPage searchResultPage;
 	AddToCartPage addToCartPage;
 
-	@BeforeMethod
-	public void setup() {
-		launchApp();
+	@Parameters("browser")
+	@BeforeMethod(groups = { "smoke", "sanity", "Regression" })
+	public void setup(@Optional("chrome") String browser) {
+		launchApp(browser);
 	}
 
-	@Test
+	@Test(groups = { "Regression", "sanity" })
 	public void addToCartTest() {
 		indexPage = new IndexPage();
 		searchResultPage = indexPage.searchProduct("t-shirt");
@@ -41,7 +44,7 @@ public class AddToCartTest extends BaseClass {
 		Assert.assertTrue(result);
 	}
 
-	@AfterMethod
+	@AfterMethod(groups = { "smoke", "sanity", "Regression" })
 	public void tearDown() {
 		driver.quit();
 	}
