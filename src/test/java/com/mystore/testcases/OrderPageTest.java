@@ -10,11 +10,13 @@ import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
+import com.mystore.actiondriver.Action;
 import com.mystore.base.BaseClass;
 import com.mystore.pageobjects.AddToCartPage;
 import com.mystore.pageobjects.IndexPage;
 import com.mystore.pageobjects.OrderPage;
 import com.mystore.pageobjects.SearchResultPage;
+import com.mystore.utility.Log;
 
 /**
  * @author swayam
@@ -25,6 +27,7 @@ public class OrderPageTest extends BaseClass {
 	SearchResultPage searchResultPage;
 	AddToCartPage addToCartPage;
 	OrderPage orderPage;
+	Action act = new Action();
 
 	@Parameters("browser")
 	@BeforeMethod(groups = { "smoke", "sanity", "Regression" })
@@ -34,6 +37,7 @@ public class OrderPageTest extends BaseClass {
 
 	@Test(groups = "Regression")
 	public void verifyTotalPrice() throws Exception {
+		Log.startTestCase("verifyTotalPrice");
 		indexPage = new IndexPage();
 		searchResultPage = indexPage.searchProduct("t-shirt");
 		addToCartPage = searchResultPage.clickOnProduct();
@@ -44,7 +48,15 @@ public class OrderPageTest extends BaseClass {
 		Double unitPrice = orderPage.getUnitPrice();
 		Double totalPrice = orderPage.getTotalPrice();
 		Double totalExpectedPrice = (unitPrice * 2) + 2;
-		Assert.assertEquals(totalPrice, totalExpectedPrice);
+		//Assert.assertEquals(totalPrice, totalExpectedPrice);
+
+		if (!totalPrice.equals(totalExpectedPrice)) {
+			act.screenShot(driver, "verifyTotalPrice");
+			Assert.assertTrue(false);
+		}else {
+			Assert.assertTrue(true);
+		}
+		Log.startTestCase("verifyTotalPrice");
 	}
 
 	@AfterMethod(groups = { "smoke", "sanity", "Regression" })

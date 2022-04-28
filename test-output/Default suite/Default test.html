@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/1</td>
+<td>Tests passed/Failed/Skipped:</td><td>1/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Apr 26 16:18:56 IST 2022</td>
+<td>Started on:</td><td>Fri Apr 29 01:57:15 IST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>20 seconds (20012 ms)</td>
+<tr><td>Total time:</td><td>39 seconds (39274 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -68,132 +68,6 @@ function toggleAllBoxes() {
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
 <table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='com.mystore.testcases.LoginPageTest.setup()'><b>setup</b><br>Test class: com.mystore.testcases.LoginPageTest<br>Parameters: chrome</td>
-<td><div><pre>org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
-from disconnected: unable to send message to renderer
-  (Session info: chrome=100.0.4896.127)
-Build info: version: &apos;4.1.3&apos;, revision: &apos;7b1ebf28ef&apos;
-System info: host: &apos;DESKTOP-ALPJP0F&apos;, ip: &apos;192.168.43.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [017892f4f2a0e31aa10df5e9d6ee7c8d, get {url=http://automationpractice.com/index.php?}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\swaya\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56119}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56119/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 017892f4f2a0e31aa10df5e9d6ee7c8d
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:330)
-	at com.mystore.base.BaseClass.launchApp(BaseClass.java:74)
-	at com.mystore.testcases.LoginPageTest.setup(LoginPageTest.java:33)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1043970800", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1043970800'><pre>org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
-from disconnected: unable to send message to renderer
-  (Session info: chrome=100.0.4896.127)
-Build info: version: &apos;4.1.3&apos;, revision: &apos;7b1ebf28ef&apos;
-System info: host: &apos;DESKTOP-ALPJP0F&apos;, ip: &apos;192.168.43.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [017892f4f2a0e31aa10df5e9d6ee7c8d, get {url=http://automationpractice.com/index.php?}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\swaya\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56119}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56119/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 017892f4f2a0e31aa10df5e9d6ee7c8d
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:330)
-	at com.mystore.base.BaseClass.launchApp(BaseClass.java:74)
-	at com.mystore.testcases.LoginPageTest.setup(LoginPageTest.java:33)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>3</td>
-<td>com.mystore.testcases.LoginPageTest@2af004b</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-failed'>
 <tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
@@ -201,47 +75,13 @@ Session ID: 017892f4f2a0e31aa10df5e9d6ee7c8d
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.mystore.testcases.LoginPageTest.loginTest()'><b>loginTest</b><br>Test class: com.mystore.testcases.LoginPageTest<br>Parameters: admin@xyz.com, admin@123</td>
-<td><div><pre>org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
-Build info: version: &apos;4.1.3&apos;, revision: &apos;7b1ebf28ef&apos;
-System info: host: &apos;DESKTOP-ALPJP0F&apos;, ip: &apos;192.168.43.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3abc2a755447124dcc66764256d3337d, actions {actions=[org.openqa.selenium.interactions.Sequence@73041b7d]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\swaya\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56074}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56074/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 3abc2a755447124dcc66764256d3337d
-	at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:362)
-	at org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:154)
-	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:287)
-	at org.openqa.selenium.json.JsonOutput.lambda$new$22(JsonOutput.java:169)
-	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
-	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
-	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
-	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
-	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
-	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
-	at org.openqa.selenium.json.JsonOutput.lambda$new$23(JsonOutput.java:169)
-	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:287)
-	at org.openqa.selenium.json.JsonOutput.lambda$new$24(JsonOutput.java:182)
-	at com.google.common.collect.SingletonImmutableBiMap.forEach(SingletonImmutableBiMap.java:68)
-	at org.openqa.selenium.json.JsonOutput.lambda$new$25(JsonOutput.java:177)
-	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:287)
-	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:278)
-	at org.openqa.selenium.json.Json.toJson(Json.java:42)
-	at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:259)
-	at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:127)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:172)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
-	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:635)
-	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:656)
-	at com.mystore.actiondriver.Action.click(Action.java:39)
-	at com.mystore.pageobjects.IndexPage.clickOnSignIn(IndexPage.java:30)
-	at com.mystore.testcases.LoginPageTest.loginTest(LoginPageTest.java:41)
+<td title='com.mystore.testcases.LoginPageTest.loginTest()'><b>loginTest</b><br>Test class: com.mystore.testcases.LoginPageTest<br>Parameters: admin@xyz.com, </td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at com.mystore.testcases.LoginPageTest.loginTest(LoginPageTest.java:62)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -270,94 +110,13 @@ Session ID: 3abc2a755447124dcc66764256d3337d
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-	Suppressed: org.openqa.selenium.json.JsonException: Attempting to close incomplete json stream
-Build info: version: &apos;4.1.3&apos;, revision: &apos;7b1ebf28ef&apos;
-System info: host: &apos;DESKTOP-ALPJP0F&apos;, ip: &apos;192.168.43.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;
-Driver info: driver.version: RemoteWebDriver
-		at org.openqa.selenium.json.JsonOutput.close(JsonOutput.java:303)
-		at org.openqa.selenium.json.Json.toJson(Json.java:40)
-		... 39 more
-Caused by: java.lang.reflect.InvocationTargetException
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:358)
-	... 60 more
-Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=100.0.4896.127)
-Build info: version: &apos;4.1.3&apos;, revision: &apos;7b1ebf28ef&apos;
-System info: host: &apos;DESKTOP-ALPJP0F&apos;, ip: &apos;192.168.43.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3abc2a755447124dcc66764256d3337d, findElement {using=xpath, value=//a[@class=&apos;login&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\swaya\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56074}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56074/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 3abc2a755447124dcc66764256d3337d
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at jdk.proxy2/jdk.proxy2.$Proxy20.getWrappedElement(Unknown Source)
-	at org.openqa.selenium.interactions.PointerInput$Origin.asArg(PointerInput.java:234)
-	at org.openqa.selenium.interactions.PointerInput$Move.encode(PointerInput.java:185)
-	at org.openqa.selenium.interactions.Sequence.encode(Sequence.java:73)
-	at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:82)
-	... 65 more
-</pre></div><a href='#' onClick='toggleBox("stack-trace718057154", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace718057154'><pre>org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
-Build info: version: &apos;4.1.3&apos;, revision: &apos;7b1ebf28ef&apos;
-System info: host: &apos;DESKTOP-ALPJP0F&apos;, ip: &apos;192.168.43.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3abc2a755447124dcc66764256d3337d, actions {actions=[org.openqa.selenium.interactions.Sequence@73041b7d]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\swaya\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56074}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56074/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 3abc2a755447124dcc66764256d3337d
-	at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:362)
-	at org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:154)
-	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:287)
-	at org.openqa.selenium.json.JsonOutput.lambda$new$22(JsonOutput.java:169)
-	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
-	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
-	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
-	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
-	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
-	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
-	at org.openqa.selenium.json.JsonOutput.lambda$new$23(JsonOutput.java:169)
-	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:287)
-	at org.openqa.selenium.json.JsonOutput.lambda$new$24(JsonOutput.java:182)
-	at com.google.common.collect.SingletonImmutableBiMap.forEach(SingletonImmutableBiMap.java:68)
-	at org.openqa.selenium.json.JsonOutput.lambda$new$25(JsonOutput.java:177)
-	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:287)
-	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:278)
-	at org.openqa.selenium.json.Json.toJson(Json.java:42)
-	at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:259)
-	at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:127)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:172)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
-	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:635)
-	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:656)
-	at com.mystore.actiondriver.Action.click(Action.java:39)
-	at com.mystore.pageobjects.IndexPage.clickOnSignIn(IndexPage.java:30)
-	at com.mystore.testcases.LoginPageTest.loginTest(LoginPageTest.java:41)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1387878879", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1387878879'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at com.mystore.testcases.LoginPageTest.loginTest(LoginPageTest.java:62)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -386,182 +145,22 @@ Session ID: 3abc2a755447124dcc66764256d3337d
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-	Suppressed: org.openqa.selenium.json.JsonException: Attempting to close incomplete json stream
-Build info: version: &apos;4.1.3&apos;, revision: &apos;7b1ebf28ef&apos;
-System info: host: &apos;DESKTOP-ALPJP0F&apos;, ip: &apos;192.168.43.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;
-Driver info: driver.version: RemoteWebDriver
-		at org.openqa.selenium.json.JsonOutput.close(JsonOutput.java:303)
-		at org.openqa.selenium.json.Json.toJson(Json.java:40)
-		... 39 more
-Caused by: java.lang.reflect.InvocationTargetException
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:358)
-	... 60 more
-Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=100.0.4896.127)
-Build info: version: &apos;4.1.3&apos;, revision: &apos;7b1ebf28ef&apos;
-System info: host: &apos;DESKTOP-ALPJP0F&apos;, ip: &apos;192.168.43.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3abc2a755447124dcc66764256d3337d, findElement {using=xpath, value=//a[@class=&apos;login&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\swaya\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56074}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56074/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 3abc2a755447124dcc66764256d3337d
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at jdk.proxy2/jdk.proxy2.$Proxy20.getWrappedElement(Unknown Source)
-	at org.openqa.selenium.interactions.PointerInput$Origin.asArg(PointerInput.java:234)
-	at org.openqa.selenium.interactions.PointerInput$Move.encode(PointerInput.java:185)
-	at org.openqa.selenium.interactions.Sequence.encode(Sequence.java:73)
-	at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:82)
-	... 65 more
 </pre></div></td>
-<td>0</td>
-<td>com.mystore.testcases.LoginPageTest@2af004b</td></tr>
+<td>8</td>
+<td>com.mystore.testcases.LoginPageTest@6bbe85a8</td></tr>
 </table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.mystore.testcases.LoginPageTest.loginTest()'><b>loginTest</b><br>Test class: com.mystore.testcases.LoginPageTest<br>Parameters: admin@xyz.com, </td>
-<td><div><pre>org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
-from disconnected: unable to send message to renderer
-  (Session info: chrome=100.0.4896.127)
-Build info: version: &apos;4.1.3&apos;, revision: &apos;7b1ebf28ef&apos;
-System info: host: &apos;DESKTOP-ALPJP0F&apos;, ip: &apos;192.168.43.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [017892f4f2a0e31aa10df5e9d6ee7c8d, get {url=http://automationpractice.com/index.php?}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\swaya\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56119}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56119/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 017892f4f2a0e31aa10df5e9d6ee7c8d
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:330)
-	at com.mystore.base.BaseClass.launchApp(BaseClass.java:74)
-	at com.mystore.testcases.LoginPageTest.setup(LoginPageTest.java:33)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace760878472", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace760878472'><pre>org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
-from disconnected: unable to send message to renderer
-  (Session info: chrome=100.0.4896.127)
-Build info: version: &apos;4.1.3&apos;, revision: &apos;7b1ebf28ef&apos;
-System info: host: &apos;DESKTOP-ALPJP0F&apos;, ip: &apos;192.168.43.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [017892f4f2a0e31aa10df5e9d6ee7c8d, get {url=http://automationpractice.com/index.php?}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\swaya\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56119}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56119/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 017892f4f2a0e31aa10df5e9d6ee7c8d
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:330)
-	at com.mystore.base.BaseClass.launchApp(BaseClass.java:74)
-	at com.mystore.testcases.LoginPageTest.setup(LoginPageTest.java:33)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>0</td>
-<td>com.mystore.testcases.LoginPageTest@2af004b</td></tr>
+<td title='com.mystore.testcases.LoginPageTest.loginTest()'><b>loginTest</b><br>Test class: com.mystore.testcases.LoginPageTest<br>Parameters: admin@xyz.com, admin@123</td>
+<td></td>
+<td>6</td>
+<td>com.mystore.testcases.LoginPageTest@6bbe85a8</td></tr>
 </table><p>
 </body>
 </html>

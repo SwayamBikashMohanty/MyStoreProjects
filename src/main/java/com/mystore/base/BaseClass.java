@@ -44,13 +44,6 @@ public class BaseClass {
 		}
 	}
 
-	/*
-	 * public void captureScreen(WebDriver driver, String tname) throws IOException
-	 * { TakesScreenshot ts = (TakesScreenshot) driver; File source =
-	 * ts.getScreenshotAs(OutputType.FILE); File target = new
-	 * File(System.getProperty("user.dir") + "/Screenshots/" + tname + ".png");
-	 * FileUtils.copyFile(source, target); System.out.println("Screenshot taken"); }
-	 */
 	public static void launchApp(String browserName) {
 		// WebDriverManager.chromedriver().setup();
 		// String browserName = prop.getProperty("browser");

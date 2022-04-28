@@ -5,7 +5,7 @@
     <classes>
       <class name="com.mystore.testcases.LoginPageTest">
         <methods>
-          <include name="loginTest" invocation-numbers="0"/>
+          <include name="loginTest" invocation-numbers="1"/>
           <include name="loadconfig"/>
           <include name="setup"/>
         </methods>

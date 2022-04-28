@@ -10,6 +10,7 @@ import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
+import com.mystore.actiondriver.Action;
 import com.mystore.base.BaseClass;
 import com.mystore.pageobjects.AddToCartPage;
 import com.mystore.pageobjects.AddressPage;
@@ -21,6 +22,7 @@ import com.mystore.pageobjects.OrderSummaryPage;
 import com.mystore.pageobjects.PaymentPage;
 import com.mystore.pageobjects.SearchResultPage;
 import com.mystore.pageobjects.ShippingPage;
+import com.mystore.utility.Log;
 
 /**
  * @author swayam
@@ -37,6 +39,7 @@ public class EndToEndTest extends BaseClass {
 	PaymentPage paymentPage;
 	OrderSummaryPage orderSummary;
 	OrderConfirmationPage orderConfirmationPage;
+	Action act = new Action();
 
 	@Parameters("browser")
 	@BeforeMethod(groups = { "smoke", "sanity", "Regression" })
@@ -46,6 +49,7 @@ public class EndToEndTest extends BaseClass {
 
 	@Test(groups = "Regression")
 	public void endToEndTest() throws Exception {
+		Log.endTestCase("endToEndTest");
 		indexPage = new IndexPage();
 		searchResultPage = indexPage.searchProduct("t-shirt");
 		addToCartPage = searchResultPage.clickOnProduct();
@@ -62,7 +66,16 @@ public class EndToEndTest extends BaseClass {
 		orderConfirmationPage = orderSummary.clickOnConfirmOrderBtn();
 		String actualMessage = orderConfirmationPage.validateConfirmMessage();
 		String expectedMessage = "Your order on My Store is complete.";
-		Assert.assertEquals(actualMessage, expectedMessage);
+		//Assert.assertEquals(actualMessage, expectedMessage);
+		if (!actualMessage.equals(expectedMessage)) {
+			act.screenShot(driver, "endToEndTest");
+			Assert.assertTrue(false);
+		}else {
+			Assert.assertTrue(true);
+		}
+
+		Log.endTestCase("endToEndTest");
+
 	}
 
 	@AfterMethod(groups = { "smoke", "sanity", "Regression" })
