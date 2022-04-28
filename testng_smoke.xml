@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
+	<!--listeners for Extent Report -->
+	<listeners>
+		<listener class-name="com.mystore.utility.ExtentManager" />
+	</listeners>
 	<test thread-count="5" name="smoke">
 		<parameter name="browser" value="Chrome"></parameter>
 		<groups>

@@ -12,10 +12,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Parameters;
 
 import com.beust.jcommander.Parameter;
 import com.mystore.actiondriver.Action;
@@ -27,12 +24,10 @@ public class BaseClass {
 	public static WebDriver driver;
 	public static Logger logger;
 
-	
-
 	@BeforeSuite(groups = { "smoke", "sanity", "Regression" })
 	public void loadconfig() {
-		try {
 
+		try {
 			logger = Logger.getLogger("MyStoreProject");
 			PropertyConfigurator.configure("log4j.properties");
 
@@ -49,6 +44,13 @@ public class BaseClass {
 		}
 	}
 
+	/*
+	 * public void captureScreen(WebDriver driver, String tname) throws IOException
+	 * { TakesScreenshot ts = (TakesScreenshot) driver; File source =
+	 * ts.getScreenshotAs(OutputType.FILE); File target = new
+	 * File(System.getProperty("user.dir") + "/Screenshots/" + tname + ".png");
+	 * FileUtils.copyFile(source, target); System.out.println("Screenshot taken"); }
+	 */
 	public static void launchApp(String browserName) {
 		// WebDriverManager.chromedriver().setup();
 		// String browserName = prop.getProperty("browser");
@@ -67,7 +69,5 @@ public class BaseClass {
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
 		driver.get(prop.getProperty("url"));
-
 	}
-
 }

@@ -1,29 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="smoke(failed)">
-    <parameter name="browser" value="Chrome"/>
+  <listeners>
+    <listener class-name="com.mystore.utility.ExtentManager"/>
+  </listeners>
+  <test thread-count="5" name="sanity(failed)">
+    <parameter name="browser" value="chrome"/>
     <groups>
       <run>
-        <include name="smoke"/>
+        <include name="sanity"/>
       </run>
     </groups>
     <classes>
-      <class name="com.mystore.testcases.IndexPageTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setup"/>
-          <include name="verifyLogo"/>
-          <include name="loadconfig"/>
-        </methods>
-      </class> <!-- com.mystore.testcases.IndexPageTest -->
       <class name="com.mystore.testcases.LoginPageTest">
         <methods>
-          <include name="loginTest" invocation-numbers="1"/>
+          <include name="loginTest"/>
           <include name="loadconfig"/>
           <include name="setup"/>
         </methods>
       </class> <!-- com.mystore.testcases.LoginPageTest -->
     </classes>
-  </test> <!-- smoke(failed) -->
+  </test> <!-- sanity(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -56,3 +56,201 @@
 2022-04-26 16:53:34,297 - com.mystore.testcases.LoginPageTest -INFO - user is going to click on signIn
 2022-04-26 16:53:47,383 - com.mystore.testcases.LoginPageTest -INFO - Enter username and password
 2022-04-26 16:53:55,146 - com.mystore.testcases.LoginPageTest -INFO - Verifying if user is able to login
+2022-04-28 00:34:56,216 - com.mystore.testcases.LoginPageTest -INFO - Test Case started
+2022-04-28 00:34:56,436 - com.mystore.testcases.LoginPageTest -INFO - user is going to click on signIn
+2022-04-28 00:34:59,446 - com.mystore.testcases.LoginPageTest -INFO - Enter username and password
+2022-04-28 00:35:03,969 - com.mystore.testcases.LoginPageTest -INFO - Verifying if user is able to login
+2022-04-28 00:35:03,972 - com.mystore.testcases.LoginPageTest -INFO - Login is success
+2022-04-28 00:35:17,367 - com.mystore.testcases.LoginPageTest -INFO - Test Case started
+2022-04-28 00:35:17,370 - com.mystore.testcases.LoginPageTest -INFO - user is going to click on signIn
+2022-04-28 00:35:23,188 - com.mystore.testcases.LoginPageTest -INFO - Enter username and password
+2022-04-28 00:35:26,695 - com.mystore.testcases.LoginPageTest -INFO - Verifying if user is able to login
+2022-04-28 00:46:41,323 - com.mystore.testcases.LoginPageTest -INFO - Test Case started
+2022-04-28 00:46:41,354 - com.mystore.testcases.LoginPageTest -INFO - user is going to click on signIn
+2022-04-28 00:46:45,128 - com.mystore.testcases.LoginPageTest -INFO - Enter username and password
+2022-04-28 00:46:48,873 - com.mystore.testcases.LoginPageTest -INFO - Verifying if user is able to login
+2022-04-28 00:46:48,876 - com.mystore.testcases.LoginPageTest -INFO - Login is success
+2022-04-28 00:47:04,011 - com.mystore.testcases.LoginPageTest -INFO - Test Case started
+2022-04-28 00:47:04,014 - com.mystore.testcases.LoginPageTest -INFO - user is going to click on signIn
+2022-04-28 00:47:07,891 - com.mystore.testcases.LoginPageTest -INFO - Enter username and password
+2022-04-28 00:47:11,349 - com.mystore.testcases.LoginPageTest -INFO - Verifying if user is able to login
+2022-04-28 00:52:53,259 - com.mystore.testcases.LoginPageTest -INFO - Test Case started
+2022-04-28 00:52:53,300 - com.mystore.testcases.LoginPageTest -INFO - user is going to click on signIn
+2022-04-28 00:52:56,608 - com.mystore.testcases.LoginPageTest -INFO - Enter username and password
+2022-04-28 00:53:01,069 - com.mystore.testcases.LoginPageTest -INFO - Verifying if user is able to login
+2022-04-28 00:53:01,072 - com.mystore.testcases.LoginPageTest -INFO - Login is success
+2022-04-28 00:53:11,313 - com.mystore.testcases.LoginPageTest -INFO - Test Case started
+2022-04-28 00:53:11,314 - com.mystore.testcases.LoginPageTest -INFO - user is going to click on signIn
+2022-04-28 00:53:15,176 - com.mystore.testcases.LoginPageTest -INFO - Enter username and password
+2022-04-28 00:53:17,616 - com.mystore.testcases.LoginPageTest -INFO - Verifying if user is able to login
+2022-04-28 01:00:58,852 - com.mystore.testcases.LoginPageTest -INFO - Test Case started
+2022-04-28 01:00:58,893 - com.mystore.testcases.LoginPageTest -INFO - user is going to click on signIn
+2022-04-28 01:01:06,923 - com.mystore.testcases.LoginPageTest -INFO - Enter username and password
+2022-04-28 01:01:11,687 - com.mystore.testcases.LoginPageTest -INFO - Verifying if user is able to login
+2022-04-28 01:01:11,690 - com.mystore.testcases.LoginPageTest -INFO - Login is success
+2022-04-28 01:01:25,553 - com.mystore.testcases.LoginPageTest -INFO - Test Case started
+2022-04-28 01:01:25,556 - com.mystore.testcases.LoginPageTest -INFO - user is going to click on signIn
+2022-04-28 01:01:29,235 - com.mystore.testcases.LoginPageTest -INFO - Enter username and password
+2022-04-28 01:01:32,712 - com.mystore.testcases.LoginPageTest -INFO - Verifying if user is able to login
+2022-04-28 01:54:15,879 - com.mystore.testcases.LoginPageTest -INFO - Test Case started
+2022-04-28 01:54:15,907 - com.mystore.testcases.LoginPageTest -INFO - user is going to click on signIn
+2022-04-28 01:54:19,852 - com.mystore.testcases.LoginPageTest -INFO - Enter username and password
+2022-04-28 01:54:23,426 - com.mystore.testcases.LoginPageTest -INFO - Verifying if user is able to login
+2022-04-28 01:54:23,430 - com.mystore.testcases.LoginPageTest -INFO - Login is success
+2022-04-28 01:54:34,363 - com.mystore.testcases.LoginPageTest -INFO - Test Case started
+2022-04-28 01:54:34,364 - com.mystore.testcases.LoginPageTest -INFO - user is going to click on signIn
+2022-04-28 01:54:38,416 - com.mystore.testcases.LoginPageTest -INFO - Enter username and password
+2022-04-28 01:54:40,506 - com.mystore.testcases.LoginPageTest -INFO - Verifying if user is able to login
+2022-04-28 02:01:48,274 - com.mystore.testcases.LoginPageTest -INFO - Test Case started
+2022-04-28 02:01:48,309 - com.mystore.testcases.LoginPageTest -INFO - user is going to click on signIn
+2022-04-28 02:01:51,271 - com.mystore.testcases.LoginPageTest -INFO - Enter username and password
+2022-04-28 02:01:56,445 - com.mystore.testcases.LoginPageTest -INFO - Verifying if user is able to login
+2022-04-28 02:01:56,449 - com.mystore.testcases.LoginPageTest -INFO - Login is success
+2022-04-28 02:02:07,774 - com.mystore.testcases.LoginPageTest -INFO - Test Case started
+2022-04-28 02:02:07,775 - com.mystore.testcases.LoginPageTest -INFO - user is going to click on signIn
+2022-04-28 02:02:12,859 - com.mystore.testcases.LoginPageTest -INFO - Enter username and password
+2022-04-28 02:02:22,750 - com.mystore.testcases.LoginPageTest -INFO - Verifying if user is able to login
+2022-04-28 02:09:03,946 - com.mystore.testcases.LoginPageTest -INFO - Test Case started
+2022-04-28 02:09:03,977 - com.mystore.testcases.LoginPageTest -INFO - user is going to click on signIn
+2022-04-28 02:09:08,420 - com.mystore.testcases.LoginPageTest -INFO - Enter username and password
+2022-04-28 02:09:11,131 - com.mystore.testcases.LoginPageTest -INFO - Verifying if user is able to login
+2022-04-28 02:09:11,134 - com.mystore.testcases.LoginPageTest -INFO - Login is success
+2022-04-28 02:09:22,384 - com.mystore.testcases.LoginPageTest -INFO - Test Case started
+2022-04-28 02:09:22,387 - com.mystore.testcases.LoginPageTest -INFO - user is going to click on signIn
+2022-04-28 02:09:26,989 - com.mystore.testcases.LoginPageTest -INFO - Enter username and password
+2022-04-28 02:09:28,911 - com.mystore.testcases.LoginPageTest -INFO - Verifying if user is able to login
+2022-04-28 02:12:19,201 - com.mystore.testcases.LoginPageTest -INFO - Test Case started
+2022-04-28 02:12:19,234 - com.mystore.testcases.LoginPageTest -INFO - user is going to click on signIn
+2022-04-28 02:12:23,145 - com.mystore.testcases.LoginPageTest -INFO - Enter username and password
+2022-04-28 02:12:26,183 - com.mystore.testcases.LoginPageTest -INFO - Verifying if user is able to login
+2022-04-28 02:12:26,187 - com.mystore.testcases.LoginPageTest -INFO - Login is success
+2022-04-28 02:12:36,099 - com.mystore.testcases.LoginPageTest -INFO - Test Case started
+2022-04-28 02:12:36,101 - com.mystore.testcases.LoginPageTest -INFO - user is going to click on signIn
+2022-04-28 02:12:40,268 - com.mystore.testcases.LoginPageTest -INFO - Enter username and password
+2022-04-28 02:12:43,102 - com.mystore.testcases.LoginPageTest -INFO - Verifying if user is able to login
+2022-04-28 02:14:56,718 - com.mystore.testcases.LoginPageTest -INFO - Test Case started
+2022-04-28 02:14:56,798 - com.mystore.testcases.LoginPageTest -INFO - user is going to click on signIn
+2022-04-28 02:14:59,316 - com.mystore.testcases.LoginPageTest -INFO - Enter username and password
+2022-04-28 02:15:02,385 - com.mystore.testcases.LoginPageTest -INFO - Verifying if user is able to login
+2022-04-28 02:15:02,388 - com.mystore.testcases.LoginPageTest -INFO - Login is success
+2022-04-28 02:15:12,446 - com.mystore.testcases.LoginPageTest -INFO - Test Case started
+2022-04-28 02:15:12,447 - com.mystore.testcases.LoginPageTest -INFO - user is going to click on signIn
+2022-04-28 02:15:14,612 - com.mystore.testcases.LoginPageTest -INFO - Enter username and password
+2022-04-28 02:15:16,710 - com.mystore.testcases.LoginPageTest -INFO - Verifying if user is able to login
+2022-04-28 02:23:56,246 - com.mystore.testcases.LoginPageTest -INFO - Test Case started
+2022-04-28 02:23:56,278 - com.mystore.testcases.LoginPageTest -INFO - user is going to click on signIn
+2022-04-28 02:23:59,357 - com.mystore.testcases.LoginPageTest -INFO - Enter username and password
+2022-04-28 02:24:02,573 - com.mystore.testcases.LoginPageTest -INFO - Verifying if user is able to login
+2022-04-28 02:24:02,577 - com.mystore.testcases.LoginPageTest -INFO - Login is success
+2022-04-28 02:24:13,851 - com.mystore.testcases.LoginPageTest -INFO - Test Case started
+2022-04-28 02:24:13,853 - com.mystore.testcases.LoginPageTest -INFO - user is going to click on signIn
+2022-04-28 02:24:16,659 - com.mystore.testcases.LoginPageTest -INFO - Enter username and password
+2022-04-28 02:24:18,791 - com.mystore.testcases.LoginPageTest -INFO - Verifying if user is able to login
+2022-04-28 02:29:02,542 - com.mystore.testcases.LoginPageTest -INFO - Test Case started
+2022-04-28 02:29:02,592 - com.mystore.testcases.LoginPageTest -INFO - user is going to click on signIn
+2022-04-28 02:29:06,537 - com.mystore.testcases.LoginPageTest -INFO - Enter username and password
+2022-04-28 02:29:10,036 - com.mystore.testcases.LoginPageTest -INFO - Verifying if user is able to login
+2022-04-28 02:29:10,039 - com.mystore.testcases.LoginPageTest -INFO - Login is success
+2022-04-28 02:29:20,762 - com.mystore.testcases.LoginPageTest -INFO - Test Case started
+2022-04-28 02:29:20,765 - com.mystore.testcases.LoginPageTest -INFO - user is going to click on signIn
+2022-04-28 02:29:23,481 - com.mystore.testcases.LoginPageTest -INFO - Enter username and password
+2022-04-28 02:29:25,969 - com.mystore.testcases.LoginPageTest -INFO - Verifying if user is able to login
+2022-04-28 02:32:43,176 - com.mystore.testcases.LoginPageTest -INFO - Test Case started
+2022-04-28 02:32:43,210 - com.mystore.testcases.LoginPageTest -INFO - user is going to click on signIn
+2022-04-28 02:32:47,596 - com.mystore.testcases.LoginPageTest -INFO - Enter username and password
+2022-04-28 02:32:50,998 - com.mystore.testcases.LoginPageTest -INFO - Verifying if user is able to login
+2022-04-28 02:32:51,001 - com.mystore.testcases.LoginPageTest -INFO - Login is success
+2022-04-28 02:33:07,078 - com.mystore.testcases.LoginPageTest -INFO - Test Case started
+2022-04-28 02:33:07,080 - com.mystore.testcases.LoginPageTest -INFO - user is going to click on signIn
+2022-04-28 02:33:13,216 - com.mystore.testcases.LoginPageTest -INFO - Enter username and password
+2022-04-28 02:33:17,945 - com.mystore.testcases.LoginPageTest -INFO - Verifying if user is able to login
+2022-04-28 02:43:56,010 - com.mystore.testcases.LoginPageTest -INFO - Test Case started
+2022-04-28 02:43:56,040 - com.mystore.testcases.LoginPageTest -INFO - user is going to click on signIn
+2022-04-28 02:44:01,862 - com.mystore.testcases.LoginPageTest -INFO - Enter username and password
+2022-04-28 02:44:06,633 - com.mystore.testcases.LoginPageTest -INFO - Verifying if user is able to login
+2022-04-28 02:44:06,636 - com.mystore.testcases.LoginPageTest -INFO - Login is success
+2022-04-28 02:44:20,419 - com.mystore.testcases.LoginPageTest -INFO - Test Case started
+2022-04-28 02:44:20,421 - com.mystore.testcases.LoginPageTest -INFO - user is going to click on signIn
+2022-04-28 02:44:22,936 - com.mystore.testcases.LoginPageTest -INFO - Enter username and password
+2022-04-28 02:44:25,394 - com.mystore.testcases.LoginPageTest -INFO - Verifying if user is able to login
+2022-04-28 11:28:16,560 - com.mystore.testcases.LoginPageTest -INFO - Test Case started
+2022-04-28 11:28:16,653 - com.mystore.testcases.LoginPageTest -INFO - user is going to click on signIn
+2022-04-28 11:28:21,298 - com.mystore.testcases.LoginPageTest -INFO - Enter username and password
+2022-04-28 11:28:25,466 - com.mystore.testcases.LoginPageTest -INFO - Verifying if user is able to login
+2022-04-28 11:28:25,470 - com.mystore.testcases.LoginPageTest -INFO - Login is success
+2022-04-28 11:28:47,589 - com.mystore.testcases.LoginPageTest -INFO - Test Case started
+2022-04-28 11:28:47,591 - com.mystore.testcases.LoginPageTest -INFO - user is going to click on signIn
+2022-04-28 11:28:52,262 - com.mystore.testcases.LoginPageTest -INFO - Enter username and password
+2022-04-28 11:28:54,649 - com.mystore.testcases.LoginPageTest -INFO - Verifying if user is able to login
+2022-04-28 11:48:34,892 - com.mystore.testcases.LoginPageTest -INFO - Test Case started
+2022-04-28 11:48:34,932 - com.mystore.testcases.LoginPageTest -INFO - user is going to click on signIn
+2022-04-28 11:48:38,532 - com.mystore.testcases.LoginPageTest -INFO - Enter username and password
+2022-04-28 11:48:41,893 - com.mystore.testcases.LoginPageTest -INFO - Verifying if user is able to login
+2022-04-28 11:48:41,896 - com.mystore.testcases.LoginPageTest -INFO - Login is success
+2022-04-28 11:49:02,581 - com.mystore.testcases.LoginPageTest -INFO - Test Case started
+2022-04-28 11:49:02,583 - com.mystore.testcases.LoginPageTest -INFO - user is going to click on signIn
+2022-04-28 11:49:07,970 - com.mystore.testcases.LoginPageTest -INFO - Enter username and password
+2022-04-28 11:49:11,953 - com.mystore.testcases.LoginPageTest -INFO - Verifying if user is able to login
+2022-04-28 11:56:14,927 - com.mystore.testcases.LoginPageTest -INFO - Test Case started
+2022-04-28 11:56:14,974 - com.mystore.testcases.LoginPageTest -INFO - user is going to click on signIn
+2022-04-28 11:56:19,271 - com.mystore.testcases.LoginPageTest -INFO - Enter username and password
+2022-04-28 11:56:24,866 - com.mystore.testcases.LoginPageTest -INFO - Verifying if user is able to login
+2022-04-28 11:56:24,870 - com.mystore.testcases.LoginPageTest -INFO - Login is success
+2022-04-28 11:56:39,472 - com.mystore.testcases.LoginPageTest -INFO - Test Case started
+2022-04-28 11:56:39,474 - com.mystore.testcases.LoginPageTest -INFO - user is going to click on signIn
+2022-04-28 11:56:43,952 - com.mystore.testcases.LoginPageTest -INFO - Enter username and password
+2022-04-28 11:56:46,309 - com.mystore.testcases.LoginPageTest -INFO - Verifying if user is able to login
+2022-04-28 12:00:58,115 - com.mystore.testcases.LoginPageTest -INFO - Test Case started
+2022-04-28 12:00:58,167 - com.mystore.testcases.LoginPageTest -INFO - user is going to click on signIn
+2022-04-28 12:01:01,851 - com.mystore.testcases.LoginPageTest -INFO - Enter username and password
+2022-04-28 12:01:05,930 - com.mystore.testcases.LoginPageTest -INFO - Verifying if user is able to login
+2022-04-28 12:01:05,934 - com.mystore.testcases.LoginPageTest -INFO - Login is success
+2022-04-28 12:01:23,323 - com.mystore.testcases.LoginPageTest -INFO - Test Case started
+2022-04-28 12:01:23,324 - com.mystore.testcases.LoginPageTest -INFO - user is going to click on signIn
+2022-04-28 12:01:28,512 - com.mystore.testcases.LoginPageTest -INFO - Enter username and password
+2022-04-28 12:01:30,988 - com.mystore.testcases.LoginPageTest -INFO - Verifying if user is able to login
+2022-04-28 12:04:54,802 - com.mystore.testcases.LoginPageTest -INFO - Test Case started
+2022-04-28 12:04:54,865 - com.mystore.testcases.LoginPageTest -INFO - user is going to click on signIn
+2022-04-28 12:04:58,165 - com.mystore.testcases.LoginPageTest -INFO - Enter username and password
+2022-04-28 12:05:03,099 - com.mystore.testcases.LoginPageTest -INFO - Verifying if user is able to login
+2022-04-28 12:05:03,103 - com.mystore.testcases.LoginPageTest -INFO - Login is success
+2022-04-28 12:05:16,398 - com.mystore.testcases.LoginPageTest -INFO - Test Case started
+2022-04-28 12:05:16,401 - com.mystore.testcases.LoginPageTest -INFO - user is going to click on signIn
+2022-04-28 12:05:19,914 - com.mystore.testcases.LoginPageTest -INFO - Enter username and password
+2022-04-28 12:05:22,651 - com.mystore.testcases.LoginPageTest -INFO - Verifying if user is able to login
+2022-04-28 12:11:48,482 - com.mystore.testcases.LoginPageTest -INFO - Test Case started
+2022-04-28 12:11:48,528 - com.mystore.testcases.LoginPageTest -INFO - user is going to click on signIn
+2022-04-28 12:11:53,995 - com.mystore.testcases.LoginPageTest -INFO - Enter username and password
+2022-04-28 12:11:57,943 - com.mystore.testcases.LoginPageTest -INFO - Verifying if user is able to login
+2022-04-28 12:11:57,946 - com.mystore.testcases.LoginPageTest -INFO - Login is success
+2022-04-28 12:12:17,929 - com.mystore.testcases.LoginPageTest -INFO - Test Case started
+2022-04-28 12:12:17,931 - com.mystore.testcases.LoginPageTest -INFO - user is going to click on signIn
+2022-04-28 12:12:22,390 - com.mystore.testcases.LoginPageTest -INFO - Enter username and password
+2022-04-28 12:12:24,402 - com.mystore.testcases.LoginPageTest -INFO - Verifying if user is able to login
+2022-04-28 13:07:12,503 - com.mystore.testcases.LoginPageTest -INFO - Test Case started
+2022-04-28 13:07:12,541 - com.mystore.testcases.LoginPageTest -INFO - user is going to click on signIn
+2022-04-28 13:07:15,230 - com.mystore.testcases.LoginPageTest -INFO - Enter username and password
+2022-04-28 13:07:19,448 - com.mystore.testcases.LoginPageTest -INFO - Verifying if user is able to login
+2022-04-28 13:07:19,451 - com.mystore.testcases.LoginPageTest -INFO - Login is success
+2022-04-28 13:07:34,392 - com.mystore.testcases.LoginPageTest -INFO - Test Case started
+2022-04-28 13:07:34,395 - com.mystore.testcases.LoginPageTest -INFO - user is going to click on signIn
+2022-04-28 13:07:37,213 - com.mystore.testcases.LoginPageTest -INFO - Enter username and password
+2022-04-28 13:07:39,230 - com.mystore.testcases.LoginPageTest -INFO - Verifying if user is able to login
+2022-04-28 13:10:55,257 - com.mystore.testcases.LoginPageTest -INFO - Test Case started
+2022-04-28 13:10:55,302 - com.mystore.testcases.LoginPageTest -INFO - user is going to click on signIn
+2022-04-28 13:10:59,880 - com.mystore.testcases.LoginPageTest -INFO - Enter username and password
+2022-04-28 13:11:04,125 - com.mystore.testcases.LoginPageTest -INFO - Verifying if user is able to login
+2022-04-28 13:11:04,128 - com.mystore.testcases.LoginPageTest -INFO - Login is success
+2022-04-28 13:11:18,591 - com.mystore.testcases.LoginPageTest -INFO - Test Case started
+2022-04-28 13:11:18,592 - com.mystore.testcases.LoginPageTest -INFO - user is going to click on signIn
+2022-04-28 13:11:22,155 - com.mystore.testcases.LoginPageTest -INFO - Enter username and password
+2022-04-28 13:11:24,034 - com.mystore.testcases.LoginPageTest -INFO - Verifying if user is able to login
+2022-04-28 13:14:37,981 - com.mystore.testcases.LoginPageTest -INFO - Test Case started
+2022-04-28 13:14:38,025 - com.mystore.testcases.LoginPageTest -INFO - user is going to click on signIn
+2022-04-28 13:14:43,681 - com.mystore.testcases.LoginPageTest -INFO - Enter username and password
+2022-04-28 13:14:48,323 - com.mystore.testcases.LoginPageTest -INFO - Verifying if user is able to login
+2022-04-28 13:14:48,326 - com.mystore.testcases.LoginPageTest -INFO - Login is success
+2022-04-28 13:15:00,178 - com.mystore.testcases.LoginPageTest -INFO - Test Case started
+2022-04-28 13:15:00,179 - com.mystore.testcases.LoginPageTest -INFO - user is going to click on signIn
+2022-04-28 13:15:08,401 - com.mystore.testcases.LoginPageTest -INFO - Enter username and password
+2022-04-28 13:15:12,805 - com.mystore.testcases.LoginPageTest -INFO - Verifying if user is able to login
